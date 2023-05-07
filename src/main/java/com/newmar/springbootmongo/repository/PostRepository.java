@@ -2,8 +2,8 @@ package com.newmar.springbootmongo.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.newmar.springbootmongo.domain.User;
+import com.newmar.springbootmongo.domain.Post;
 
-public interface UserRepository extends MongoRepository<User, String> {
+public interface PostRepository extends MongoRepository<Post, String> {
 
 }
